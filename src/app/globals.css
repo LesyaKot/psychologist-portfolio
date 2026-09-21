@@ -1,0 +1,42 @@
+@import "tailwindcss";
+/* 
+body {
+  background: radial-gradient(
+    circle at 20% 10%,
+    #627a65 0%,
+    #556b58 50%,
+    #465749 100%
+  ) !important;
+  background-attachment: fixed !important;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.7;
+}  */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+@layer base {
+  html,
+  body {
+    background: radial-gradient(
+        circle at 20% 10%,
+        #627a65 0%,
+        #556b58 50%,
+        #465749 100%
+      )
+      no-repeat fixed center center / cover !important;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.7;
+    min-height: 100vh;
+  }
+}

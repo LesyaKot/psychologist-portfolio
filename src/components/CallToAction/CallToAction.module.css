@@ -1,0 +1,56 @@
+.section {
+  width: 100%;
+  background-color: #faf9f6;
+  padding: 240px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.quote {
+  font-size: clamp(24px, 3.5vw, 36px);
+  font-weight: 300;
+  line-height: 1.35;
+  color: #2c302d !important;
+  max-width: 750px;
+  margin: 0;
+}
+
+.divider {
+  width: 60px;
+  height: 1px;
+  background-color: rgba(85, 107, 88, 0.3);
+  margin: 36px 0;
+}
+
+.btnWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #556b58;
+  background-color: transparent;
+  border: 1px solid rgba(85, 107, 88, 0.3);
+  padding: 16px 36px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #556b58;
+  color: #ffffff;
+  border-color: #556b58;
+}
