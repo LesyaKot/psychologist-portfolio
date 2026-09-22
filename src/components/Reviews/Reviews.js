@@ -23,10 +23,6 @@ export default function Reviews() {
           <h2 className={css.mainTitle}>
             Відгуки <span className={css.italicWord}></span>
           </h2>
-          {/* <p className={css.mainSubtitle}>
-            Відгуки людей, які пройшли шлях внутрішніх змін та відновлення у
-            безпечному терапевтичному просторі.
-          </p> */}
         </div>
 
         <div className={css.grid}>

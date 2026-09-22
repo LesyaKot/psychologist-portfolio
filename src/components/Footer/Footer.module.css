@@ -1,6 +1,6 @@
 .footerOuter {
   width: 100%;
-  background: transparent; /* М'яко лежить на нашому радіальному градієнті */
+  background: transparent;
   padding-top: 100px;
   margin-top: 80px;
 }
@@ -30,7 +30,6 @@
   }
 }
 
-/* Ліва сторона */
 .title {
   font-size: 50px;
   font-weight: 150;
@@ -74,7 +73,6 @@
   opacity: 1;
 }
 
-/* Права сторона: Форма з лініями підкреслення */
 .form {
   display: flex;
   flex-direction: column;
@@ -92,7 +90,7 @@
   width: 100%;
   background: transparent;
   border: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.25); /* Тонка лінія як на скриншоті */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
   padding: 12px 0;
   color: #ffffff;
   font-size: 15px;
@@ -128,7 +126,6 @@
   opacity: 0.8;
 }
 
-/* Повідомлення про успіх */
 .successMessage {
   text-align: left;
   animation: fadeIn 0.5s ease forwards;
@@ -169,10 +166,9 @@
   margin-top: 6px;
 }
 
-/* 🏢 ФІНАЛЬНА ТЕМНА ПЛАШКА В САМОМУ НИЗУ (COLOR BLOCKING) */
 .bottomBar {
   width: 100%;
-  background-color: #405243; /* Глибокий, темніший містично-оливковий відтінок */
+  background-color: #405243;
   padding: 24px 40px;
   margin-top: 100px;
   border-top: 1px solid rgba(255, 255, 255, 0.05);

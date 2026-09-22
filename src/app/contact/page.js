@@ -15,7 +15,6 @@ export default function ContactPage() {
     const phone = formData.get("phone")?.toString().trim() || "";
     const message = formData.get("message") || "";
 
-    // ВІДКОРИГОВАНО: чистий \$ наприкінці виразів
     const nameRegex = /^[a-zA-Zа-яА-ЯіІїЇєЄґҐ\s']/;
     const phoneRegex = /^\+380\d{9}$/;
 
