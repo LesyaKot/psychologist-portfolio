@@ -1,0 +1,89 @@
+.section {
+  width: 100%;
+  background-color: #fff;
+  padding: 220px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.headerBlock {
+  text-align: center;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.mainTitle {
+  font-size: 50px;
+  font-weight: 150;
+  line-height: 1.15;
+  color: #556b58 !important;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.italicWord {
+  font-style: italic;
+}
+
+.mainSubtitle {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.7;
+  color: #2c302d !important;
+  opacity: 0.8;
+  margin: 0;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px 48px;
+    align-items: start;
+  }
+}
+
+.reviewCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.text {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.7;
+  color: #2c302d !important;
+  opacity: 0.85;
+  font-style: italic;
+  margin: 0;
+}
+
+.divider {
+  width: 40px;
+  height: 1px;
+  background-color: rgba(85, 107, 88, 0.25);
+  margin: 20px 0 16px 0;
+}
+
+.author {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: #556b58 !important;
+  text-transform: uppercase;
+}

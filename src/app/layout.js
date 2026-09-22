@@ -18,10 +18,10 @@ export default function RootLayout({ children }) {
         <div className="relative z-10 flex flex-col justify-between min-h-screen w-full">
           <Header />
           <main className="flex-grow">{children}</main>
-          <Approach />
+          {/* <Approach />
           <Faq />
           <CallToAction />
-          <ScrollToTop />
+          <ScrollToTop /> */}
           <Footer />
         </div>
       </body>
