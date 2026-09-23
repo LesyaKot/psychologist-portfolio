@@ -9,9 +9,6 @@ export default function Header() {
           <Link href="/" className={css.name}>
             ТК
           </Link>
-          <Link href="/" className={css.logoname}>
-            Тетяна Колесникова
-          </Link>
         </div>
 
         <div className={css.navigation}>
@@ -30,7 +27,7 @@ export default function Header() {
 
         <div className={css.btnwrap}>
           <Link href="/contact" className={css.btn}>
-            Записатись
+            Записатися
           </Link>
         </div>
       </div>

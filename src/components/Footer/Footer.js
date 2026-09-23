@@ -59,10 +59,10 @@ export default function Footer() {
           </p>
           <div className={css.contactsBlock}>
             <a
-              href="mailto:hello@tetyanakolesnykova.com"
+              href="mailto:hello@tetyanakolesnikova.com"
               className={css.contactLink}
             >
-              hello@tetyanakolesnykova.com
+              hello@tetyanakolesnikova.com
             </a>
             <a href="tel:+380*********" className={css.contactLink}>
               +380 *********
@@ -140,7 +140,7 @@ export default function Footer() {
       </div>
 
       <div className={css.bottomBar}>
-        <p>© 2026 ТЕТЯНА КОЛЕСНИКОВА. ПСИХОТЕРАПІЯ.</p>
+        <p>© 2026 ТЕТЯНА КОЛЕСНІКОВА. ПСИХОТЕРАПІЯ.</p>
       </div>
     </footer>
   );

@@ -108,6 +108,7 @@
 }
 
 .submitBtn {
+  font-family: "Cormorant Garamond", serif;
   align-self: flex-start;
   background: transparent;
   border: none;

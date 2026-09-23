@@ -13,29 +13,33 @@ export default function Home() {
       <div className={css.container}>
         <div className={css.heroFlex}>
           <div className={css.textContent}>
-            <p className={css.overtitle}>Ліцензований клінічний психолог</p>
+            <p className={css.overtitle}>Тетяна Колеснікова</p>
+            <p className={css.overtitle}>Дипломований психолог</p>
+            <p className={css.overtitle}>Сертифікований клінічний психолог</p>
 
-            <h1 className={css.title}>
+            {/* <h1 className={css.title}>
               Простір, щоб дихати.
               <br />
               <span className={css.italicRow}>Місце, щоб зцілюватись.</span>
-            </h1>
+            </h1> */}
 
             <p className={css.description}>
-              Експертний супровід крізь тривогу, травми та життєві зміни.
-              Відновіть зв'язок зі своїм справжнім "я" в атмосфері глибокого
-              розуміння та опори.
+              Коли всередині важко — не обов'язково справлятися з усім
+              самостійно. Допомагаю краще зрозуміти себе, свої почуття та те, що
+              відбувається у стосунках і житті. Тривога • вигорання • самооцінка
+              • стосунки • особисті межі • життєві зміни Тут не потрібно бути
+              «правильним». Тут можна бути собою.
             </p>
 
             <Link href="/contact" className={css.btn}>
-              почати терапію
+              Записатися на консультацію
             </Link>
           </div>
 
           <div className={css.imageCard}>
             <Image
               src="/ava.png"
-              alt="Психолог Тетяна Колесникова"
+              alt="Психолог Тетяна Колеснікова"
               fill
               priority
               className={css.img}
@@ -44,10 +48,10 @@ export default function Home() {
         </div>
       </div>
       <Approach />
-      <Faq />
+      {/* <Faq /> */}
       <CallToAction />
       <ScrollToTop />
-      <Reviews />
+      {/* <Reviews /> */}
     </main>
   );
 }

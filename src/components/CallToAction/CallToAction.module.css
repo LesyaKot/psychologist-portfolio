@@ -44,6 +44,7 @@
   color: #556b58;
   background-color: transparent;
   border: 1px solid rgba(85, 107, 88, 0.3);
+  border-radius: 50px;
   padding: 16px 36px;
   text-decoration: none;
   transition: all 0.3s ease;

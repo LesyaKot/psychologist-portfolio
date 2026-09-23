@@ -6,7 +6,8 @@ export default function CallToAction() {
     <section className={css.section}>
       <div className={css.container}>
         <blockquote className={css.quote}>
-          «Найважливіші стосунки у вашому житті — це стосунки з самим собою.»
+          «Вам не потрібно ставати іншою людиною. Іноді потрібно лише нарешті
+          дозволити собі бути собою».
         </blockquote>
 
         <div className={css.divider}></div>
