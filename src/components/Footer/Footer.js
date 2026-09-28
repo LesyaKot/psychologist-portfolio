@@ -64,8 +64,8 @@ export default function Footer() {
             >
               hello@tetyanakolesnikova.com
             </a>
-            <a href="tel:+380*********" className={css.contactLink}>
-              +380 *********
+            <a href="tel:+38 098 001 08 01" className={css.contactLink}>
+              +38 098 001 08 01
             </a>
           </div>
         </div>

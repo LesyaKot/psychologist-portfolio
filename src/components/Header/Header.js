@@ -25,11 +25,20 @@ export default function Header() {
           </nav>
         </div>
 
-        <div className={css.btnwrap}>
+        <div className={css.phonenumberwrap}>
+          <a
+            href="tel:+38 098 001 08 01"
+            className={css.phonenumber}
+            alt="Зателефонувати"
+          >
+            +38 098 001 08 01
+          </a>
+        </div>
+        {/* <div className={css.btnwrap}>
           <Link href="/contact" className={css.btn}>
             Записатися
           </Link>
-        </div>
+        </div> */}
       </div>
     </header>
   );

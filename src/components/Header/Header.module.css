@@ -19,7 +19,7 @@
 .name {
   font-family: "Cormorant Garamond", serif;
   font-style: italic;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 0.9;
   color: #ffffff;
@@ -32,7 +32,8 @@
   font-size: 9px;
   font-weight: 400;
   letter-spacing: 0.25em;
-  color: rgba(255, 255, 255, 0.5);
+  color: #ffffff;
+  /* color: rgba(255, 255, 255, 0.5); */
   text-transform: uppercase;
   text-decoration: none;
   margin: 0;
@@ -50,38 +51,35 @@
   font-weight: 400;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.75);
+  color: #ffffff;
+  /* color: rgba(255, 255, 255, 0.75); */
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .navlink:hover {
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: rgba(255, 255, 255, 0.75);
 }
 
-.btnwrap {
+.phonenumberwrap {
   display: flex;
   align-items: center;
 }
 
-.btn {
+.phonenumber {
   display: inline-block;
-
-  font-size: 11px;
+  font-size: 15px;
   font-weight: 400;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   background-color: transparent;
   color: #ffffff;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  padding: 10px 24px;
-  border-radius: 50px;
   text-decoration: none;
   transition: all 0.3s ease;
 }
 
-.btn:hover {
-  background-color: #ffffff;
-  color: #556b58;
-  border-color: #ffffff;
+.phonenumber:hover {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.5);
 }

@@ -27,17 +27,22 @@ h6 {
 @layer base {
   html,
   body {
-    background: radial-gradient(
+    /* background: radial-gradient(
         circle at 20% 10%,
         #627a65 0%,
         #556b58 50%,
         #465749 100%
       )
-      no-repeat fixed center center / cover !important;
+      no-repeat fixed center center / cover !important; */
+    background: #7a8fa3;
+    background: #3a4750;
+    /* background: #415a77; */
+    /* background: #34495e; */
+
     color: #ffffff;
     font-size: 16px;
     line-height: 1.7;
     min-height: 100vh;
-    font-family: "Cormorant Garamond", serif;
+    font-family: "Roboto", serif;
   }
 }
