@@ -209,7 +209,38 @@ export default function ServicesPage() {
 
         <div className={css.textBlock}>
           <section className={css.sectionBlock}>
-            <h2 className={css.sectionTitle}>З чим можна звернутися</h2>
+            <h1 className={css.sectionTitle}>
+              З чим я <span className={css.italicWord}>працюю</span>
+            </h1>
+
+            <ul className={css.list}>
+              <li className={css.listItem}>
+                тривога, внутрішнє напруження та стрес;
+              </li>
+              <li className={css.listItem}>
+                емоційне виснаження та вигорання;
+              </li>
+              <li className={css.listItem}>
+                самооцінка та впевненість у собі;
+              </li>
+              <li className={css.listItem}>
+                особисті межі та вміння говорити «ні»;
+              </li>
+              <li className={css.listItem}>
+                стосунки з партнером, родиною та собою;
+              </li>
+              <li className={css.listItem}>
+                складні життєві періоди та кризи;
+              </li>
+              <li className={css.listItem}>втрати й зміни;</li>
+              <li className={css.listItem}>труднощі адаптації;</li>
+              <li className={css.listItem}>пошук себе та власного напрямку;</li>
+              <li className={css.listItem}>
+                страхи, сумніви та складність прийняття рішень.
+              </li>
+            </ul>
+
+            {/* <h2 className={css.sectionTitle}>З чим можна звернутися</h2>
             <p className={css.paragraph}>
               Не обов'язково мати «велику проблему». Іноді достатньо відчуття:
               «Мені зараз важко, і я не знаю, що з цим робити». Я працюю із
@@ -254,7 +285,7 @@ export default function ServicesPage() {
                 давав непроханих порад. Іноді саме з цього починається важлива
                 розмова із собою.
               </li>
-            </ul>
+            </ul> */}
           </section>
           {/* 
           <section className={css.sectionBlock}>
